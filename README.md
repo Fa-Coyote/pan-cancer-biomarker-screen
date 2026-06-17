@@ -6,15 +6,15 @@
 
 A self-contained R script demonstrating a meta-analysis approach to
 screening for genes that are consistently dysregulated across multiple
-cancer types — the same general logic behind pan-cancer prognostic
-biomarker discovery work I have contributed to as a co-author
-(screening genes such as *FAM72B*, *CDK5R1*, *SERPINE1*, and *CISH*
-across twelve cancer types).
+cancer types. This mirrors the general logic behind a pan-cancer
+prognostic biomarker discovery study I co-authored, currently under
+journal review and not yet public — so this demo intentionally uses
+simulated data and generic gene labels rather than any real findings
+from that manuscript.
 
-**This script uses simulated, randomly generated expression data,
-not real patient data or any third-party code.** It was written from
-scratch to illustrate the method, since the original study's data and
-code were produced collaboratively and are not mine to share.
+**This script uses simulated, randomly generated expression data, not
+real patient data, real gene identities, or any third-party code.** It
+was written from scratch to illustrate the method only.
 
 ## What it does
 
@@ -39,10 +39,8 @@ Rscript pan_cancer_biomarker_screen.R
 
 ## Background
 
-This mirrors the analytical concept used in:
-
-Shokrollahi A.\*, Mahdevar M.\*, Haji Ali Asgary Najafabadi A.H.,
-**Azizian-Farsani F.**, Peymani M., Ghaedi K. *The expression of
-FAM72B, MIR193BHG, CDK5R1, SERPINE1, and CISH as prognostic markers
-in twelve prevalent cancers based on meta-analysis.* (Revised at
-*Scientific Reports*)
+This demo illustrates the type of pan-cancer meta-analysis screening
+approach used in biomarker discovery research, including a
+collaborative manuscript I co-authored that is currently under review
+at a peer-reviewed journal. Specific findings from that study are not
+included here, as it has not yet been published.
